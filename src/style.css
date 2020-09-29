@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+h1, p {
+    margin:0;
+    padding: 0;
+}
+.container {
+    width: 1240px;
+    height: 1200px;
+    /* width: 90%; */
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+}
+.leftpane {
+    width:35%;
+    padding-top: 32px;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profilephoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.rightpane {
+    width:65%;
+    background-color: #cccccc;
+}
+.name {
+    padding-top: 16px;
+}
+.title {
+    color: #808080;
+}
