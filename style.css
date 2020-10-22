@@ -26,8 +26,9 @@ a {
 .leftpane {
     width:40%;
     padding-top: 16px;
-    /* background-color: #e3e3e3; */
-    border-right: 2px solid #e3e3e3;
+    background-color: #e3e3e3;
+    /* border-right: 2px solid #e3e3e3; */
+    border: 2px solid #e3e3e3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +44,7 @@ h3 {
 .rightpane {
     width:60%;
     /* background-color: #cccccc; */
-    /* border: 2px solid #e3e3e3; */
+    border: 2px solid #e3e3e3;
     /* padding-top: 16px; */
     /* background-color: #e3e3e3; */
     display: flex;
@@ -107,7 +108,12 @@ h3 {
     font-size: 0.9em;
     margin-bottom: 16px;
 }
-
+.downloadbtn {
+    color: #3a5dbf;
+    position: fixed;
+    bottom: 64px;
+    right: 64px;
+}
 .fa-linkedin {
     color: #0976b4;
 }
