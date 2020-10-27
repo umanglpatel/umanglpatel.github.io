@@ -109,12 +109,7 @@ h3 {
     font-size: 0.9em;
     margin-bottom: 16px;
 }
-.downloadbtn {
-    color: #3a5dbf;
-    position: fixed;
-    bottom: 64px;
-    right: 64px;
-}
+
 .fa-linkedin {
     color: #0976b4;
 }
@@ -127,7 +122,12 @@ h3 {
 .fa-envelope, .fa-phone {
     color: black;
 }
-
+.downloadbtn {
+    color: #3a5dbf;
+    position: fixed;
+    bottom: 64px;
+    right: 64px;
+}
 @media (max-width: 768px) {
     .container {
         width: 100%;
@@ -136,5 +136,9 @@ h3 {
     .leftpane, .rightpane {
       width: 100%;
       background-color: #e3e3e3;
+    }
+    .downloadbtn {
+        bottom: 16px;
+        right: 16px;
     }
 }
